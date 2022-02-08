@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const Say = ({ children }) => {
     const [message, setMessage] = useState(children);
-    // 현재 상태, 상태를 바꾸어 주는 함수(세터 함수)
+    // 현재 상태, 상태를 바꾸어 주는 함수(세터 함수)d
     // 함수 인자로 기본값 설정
     const onClickEnter = () => setMessage("안녕하세요!");
     const onClickLeave = () => setMessage("안녕히가세요!");

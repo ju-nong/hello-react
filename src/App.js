@@ -22,10 +22,10 @@
 //   );
 // }
 
-import Say from "./Say";
+import EventPractice from "./EventPractice";
 
 const App = () => {
-    return <Say>히히 버튼 눌러봐</Say>;
+    return <EventPractice></EventPractice>;
 };
 
 export default App;
