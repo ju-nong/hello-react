@@ -22,14 +22,10 @@
 //   );
 // }
 
-import MyComponent from "./MyComponent";
+import Say from "./Say";
 
 const App = () => {
-  return (
-    <MyComponent name="3" favoriteNumber={1}>
-      아이들
-    </MyComponent>
-  );
+    return <Say>히히 버튼 눌러봐</Say>;
 };
 
 export default App;
